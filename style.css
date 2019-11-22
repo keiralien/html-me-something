@@ -1,0 +1,21 @@
+
+@import url(https://fonts.googleapis.com/css?family=Aldrich);
+
+html {
+    margin: 100;
+    padding: 0;
+}
+
+body {
+    font-family: Aldrich, sans-serif;
+    line-height: 1.5;
+    color #555753;
+    /* background: ; */
+    margin: 0;
+    padding: 0;
+}
+
+header h1 {
+    text-indent 100%;
+
+}
