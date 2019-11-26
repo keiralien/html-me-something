@@ -1,21 +1,67 @@
 
-@import url(https://fonts.googleapis.com/css?family=Aldrich);
+@import url(https://fonts.googleapis.com/css?family=Architects+Daughter);
+@import url(https://fonts.googleapis.com/css?family=Beth+Ellen&effect=3d-float);
 
 html {
-    margin: 100;
-    padding: 0;
+    background-color: #ffc299;
 }
 
 body {
-    font-family: Aldrich, sans-serif;
-    line-height: 1.5;
-    color #555753;
+    font-family: 'Architects Daughter', sans-serif;
+    line-height: 1.25;
+    /* color #; */
     /* background: ; */
-    margin: 0;
-    padding: 0;
+    margin: 2cm;
+    text-align: justify;
+}
+
+header {
+    font-family: 'Beth Ellen', sans-serif;
 }
 
 header h1 {
-    text-indent 100%;
+    margin-top: 1cm;
+    text-align: right;
+    /* color: red; */
+}
 
+header h3 {
+    padding-left: .25cm;
+}
+
+p {
+    font-size: large;
+    padding-right: .5cm;
+    padding-left: .5cm;
+    padding-bottom: .25cm;
+}
+
+.excited {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+#so-excited {
+    font-size: xx-large;
+    /* margin-top: 0; */
+    margin-bottom: 0;
+    /* padding-bottom: 0; */
+}
+
+#really-excited {
+    font-size: x-large;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 2cm;
+    padding-bottom: 0;
+}
+
+
+#really-really-excited {
+    font-size: xx-large;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 3.75cm;
+    /* padding-bottom: 0; */
 }
