@@ -2,69 +2,102 @@
 @import url(https://fonts.googleapis.com/css?family=Architects+Daughter);
 @import url(https://fonts.googleapis.com/css?family=Beth+Ellen&effect=3d-float);
 
-html {
-    background-color: #ffc299;
-}
-
-body {
-    font-family: 'Architects Daughter', sans-serif;
-    line-height: 1.25;
-    margin: 2cm;
-    text-align: justify;
+.wrapper {
+    max-width: 1800px;
 }
 
 header {
     font-family: 'Beth Ellen', sans-serif;
 }
 
-header h1 {
-    margin-top: 1cm;
+h1 {
     text-align: right;
+    font-size: 50px;
 }
 
-header h3 {
-    padding-left: .25cm;
+h3 {
+    padding-left: 15px;
+}
+
+body {
+    font-family: 'Architects Daughter', sans-serif;
+    line-height: 1.25;
+    text-align: justify;
+}
+
+figure {
+    padding-bottom: 15px;
 }
 
 p {
     font-size: large;
-    padding-right: .5cm;
-    padding-left: .5cm;
-    padding-bottom: .25cm;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 15px;
 }
 
 ol {
     font-size: large;
+    padding-right: 350px;
+    padding-bottom: 15px;
+}
+
+.container {
+    height: 80px;
+    background-color: #336600;
+}
+/* Alternate background color - #ffc299 */
+
+/* Continue working on positioning! 
+.line {
+    display: block;
+    width: 225px;
+    height: 4px;
+    margin-right: -50%;
+    background-image: radial-gradient(#336600,#ffffff);
+}
+*/
+
+.ice-cube {
+    float: right;
 }
 
 .excited {
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-bottom: 0;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
 }
 
 .boldWords {
     font-weight: bold;
 }
 
+#opening-pic {
+    float: left;
+}
+
+#list-lead-in {
+    padding-right: 350px;
+}
+
 #so-excited {
     font-size: xx-large;
-    margin-bottom: 0;
+    margin-bottom: 0px;
 }
 
 #really-excited {
     font-size: x-large;
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-left: 2cm;
-    padding-bottom: 0;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 75px;
+    padding-bottom: 0px;
 }
 
 #really-really-excited {
     font-size: xx-large;
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-left: 3.75cm;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 125px;
 }
 
 #endText {
